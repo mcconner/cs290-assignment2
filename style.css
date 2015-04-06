@@ -1,0 +1,48 @@
+tbody > tr > th {
+font-style: italic;
+font-weight: normal;
+}
+
+thead {
+font-weight: bold;
+}
+
+tbody> tr:nth-child(odd) {
+background-color: lightgreen;
+}
+
+tbody > tr:nth-child(even) {
+background-color: lightblue;
+}
+
+tbody > tr > td:nth-child(2) {
+color: red;
+}
+
+tbody > tr > td:nth-child(4) {
+color: blue;
+}
+
+dt:hover + dd {
+background-color: purple;
+}
+
+.outer-content {
+position: relative;
+align: left;
+padding: 20px;
+width: 75%;
+background-color: pink;
+}
+
+.inner-content {
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+background-color: blue;
+width: 75%;
+align: center;
+text-align: center;
+}
